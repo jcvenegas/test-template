@@ -11,7 +11,7 @@ pub fn hello(number: i32) -> i32 {
 }
 
 fn main() {
-    hello(1);
+    hello(2);
 }
 
 #[cfg(test)]
