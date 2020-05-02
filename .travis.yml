@@ -1,0 +1,12 @@
+branches:
+  only:
+    - "master"
+language: generic
+os: linux
+dist: bionic
+before_install:
+  - .ci/setup.sh
+install:
+  - .ci/build.sh
+script:
+  - .ci/run.sh
