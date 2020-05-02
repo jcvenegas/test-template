@@ -10,7 +10,7 @@ set -o pipefail
 set -o errtrace
 
 script_name=${0##*/}
-script_dir=$(dirname "$(readlink -f "$0")")
+  script_dir=$(dirname "$(readlink -f "$0")")
 
 die() {
 	local msg="$*"
