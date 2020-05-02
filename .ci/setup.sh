@@ -4,7 +4,7 @@
 #
 # SPDX-License-Identifier: Apache-2.0 OR MIT
 
-set -o errexit
+set -o  errexit
 set -o nounset
 set -o pipefail
 set -o errtrace
