@@ -23,4 +23,16 @@ mod tests {
         assert_eq!(hello(1), 1);
         assert_eq!(hello(2), 2);
     }
+
+    use assert_cmd::prelude::*;
+    use predicates::prelude::*;
+    use std::process::Command;
+    #[test]
+    fn test_example() {
+        let mut cmd = Command::cargo_bin(env!("CARGO_PKG_NAME")).unwrap();
+        cmd.arg("-A");
+        cmd.assert()
+            .success()
+            .stdout(predicate::eq(b"Hello\n" as &[u8]));
+    }
 }

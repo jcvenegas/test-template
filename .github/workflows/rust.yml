@@ -116,6 +116,11 @@ jobs:
           toolchain: stable
           override: true
 
+      - name: Run cargo build
+        uses: actions-rs/cargo@v1
+        with:
+          command: build
+
       - name: Run cargo-tarpaulin
         uses: actions-rs/tarpaulin@v0.1
         with:

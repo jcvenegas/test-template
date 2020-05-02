@@ -68,4 +68,5 @@ info "Running cargo fmt"
 cargo fmt -- --check
 
 info "Running tests"
+cargo build
 cargo test
