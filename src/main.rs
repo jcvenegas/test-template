@@ -6,7 +6,7 @@
 //! PROGRAM-SUMMARY
 
 pub fn hello(number: i32) -> i32 {
-    println!("Hello");
+    println!("Hello github");
     number
 }
 
