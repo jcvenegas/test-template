@@ -1,0 +1,18 @@
+[package]
+name = "test"
+version = "0.1.0"
+authors = ["Carlos Venegas <vmjcarlos@gmail.com>"]
+edition = "2018"
+license = "MIT OR Apache-2.0"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+
+[dev-dependencies]
+assert_cmd = "1.0.1"
+predicates = "1.0.4"
+
+[badges]
+codecov = { repository = "jcvenegas/test-template", branch = "master", service = "github" }
+travis-ci = { repository = "jcvenegas/test-template", branch = "master" }
