@@ -11,7 +11,7 @@ license = "MIT OR Apache-2.0"
 
 [dev-dependencies]
 assert_cmd = "1.0.1"
-predicates = "1.0.4"
+predicates = "1.0.7"
 
 [badges]
 codecov = { repository = "jcvenegas/test-template", branch = "master", service = "github" }
