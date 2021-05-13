@@ -10,7 +10,7 @@ license = "MIT OR Apache-2.0"
 [dependencies]
 
 [dev-dependencies]
-assert_cmd = "1.0.1"
+assert_cmd = "1.0.4"
 predicates = "1.0.4"
 
 [badges]
